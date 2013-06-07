@@ -18,16 +18,14 @@ public class MySQLiteHelper extends SQLiteOpenHelper {
 		 
 		public static final String TABLE_WORD = "word";
 		public static final String WORD_COLUMN_ID = "_id";
-		public static final String WORD_COLUMN_NAME = "words";
-		public static final String WORD_COLUMN_ENABLED = "is_enabled";
+		public static final String WORD_COLUMN_WORD = "word";
 
 	
 		// Database creation sql statement
 		private static final String DATABASE_CREATE = "create table " + TABLE_WORD
 				+ "(" 
 				+ WORD_COLUMN_ID + " integer primary key autoincrement, "
-				+ WORD_COLUMN_NAME + " text not null," 
-				+ WORD_COLUMN_ENABLED + " text not null"   
+				+ WORD_COLUMN_WORD + " text not null" 
 				// no comma after last column
 				+ ")";
 	
@@ -51,7 +49,7 @@ public class MySQLiteHelper extends SQLiteOpenHelper {
 		// TODO Auto-generated method stub
 
 		 arg0.execSQL("DROP TABLE IF EXISTS " + TABLE_WORD);
-		    onCreate(arg0);
+		 onCreate(arg0);
 		Log.w(MySQLiteHelper.class.getName(),
 				        "Upgrading database from version " + arg1 + " to "
 				            + arg2 + ", which will destroy all old data");   	

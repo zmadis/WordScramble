@@ -2,8 +2,8 @@ package edu.cgu.ist380.wordscrambletracker.db;
 
 public class Word {
 	private int id;
-	private String words;
-	private boolean isEnabled;
+	private String word;
+
 	public int getId() {
 		return id;
 	}
@@ -11,17 +11,12 @@ public class Word {
 		this.id = id;
 	}
 	public String getWords() {
-		return words;
+		return word;
 	}
-	public void setWords(String words) {
-		this.words = words;
+	public void setWords(String word) {
+		this.word = word;
 	}
-	public boolean isEnabled() {
-		return isEnabled;
-	}
-	public void setEnabled(boolean isEnabled) {
-		this.isEnabled = isEnabled;
-	}
+
 	
 
 }
