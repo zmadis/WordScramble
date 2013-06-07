@@ -23,4 +23,102 @@
         android:layout_alignParentTop="true"
         android:text="Button" />
 
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp" >
+
+        <EditText
+            android:id="@+id/editText1"
+            style="@style/AppTheme"
+            android:layout_width="30dip"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="30dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:ems="10"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="30dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:ems="10"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="30dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:ems="10"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="30dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:ems="10"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="30dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:ems="10"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="30dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:ems="10"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="30dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:ems="10"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="30dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:ems="10"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="30dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:ems="10"
+            android:inputType="text" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_marginTop="14dp"
+        android:text="Button" />
+
 </RelativeLayout>
