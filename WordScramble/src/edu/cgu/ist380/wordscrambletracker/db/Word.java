@@ -10,10 +10,10 @@ public class Word {
 	public void setId(int id) {
 		this.id = id;
 	}
-	public String getWords() {
+	public String getWord() {
 		return word;
 	}
-	public void setWords(String word) {
+	public void setWord(String word) {
 		this.word = word;
 	}
 
