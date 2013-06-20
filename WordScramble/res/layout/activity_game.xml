@@ -13,23 +13,24 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:text="Button" />
+        android:text="No Action" />
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/exit1"
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
-        android:text="Button" />
+        android:text="Exit" />
 
     <LinearLayout
         android:id="@+id/linearLayout1"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/button2"
         android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
         android:layout_marginTop="21dp" >
 
         <EditText
@@ -114,12 +115,33 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/submit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:layout_below="@+id/linearLayout1"
         android:layout_marginTop="14dp"
-        android:text="Button" />
+        android:text="Submit" />
+
+    <TextView
+        android:id="@+id/numberOfTrials"
+        android:background="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/exit1"
+        android:layout_alignBottom="@+id/exit1"
+        android:layout_centerHorizontal="true"
+        android:text="1 trial out of 3" />
+
+    <TextView
+        android:id="@+id/AnswerTextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentStart="false"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@color/white"
+        android:textColor="#FF0000" />
 
 </RelativeLayout>

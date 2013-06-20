@@ -6,5 +6,6 @@
     <string name="hello_world">Hello world!</string>
     <string name="info">"Information "</string>
     <string name="instructions">Press new game. On the screen you will see some letters that appear in the word. You must guess the word. Touch the blank space and touch a letter. Press submit.</string>
+    <color name="white">#FFFFFF</color>
 
 </resources>
