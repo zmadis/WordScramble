@@ -30,7 +30,7 @@ public final class R {
         public static final int wordscramble_bg=0x7f020003;
     }
     public static final class id {
-        public static final int AnswerTextView1=0x7f09000f;
+        public static final int AnswerTextView1=0x7f090010;
         public static final int RelativeLayout1=0x7f090000;
         public static final int action_settings=0x7f090016;
         public static final int button2=0x7f090001;
@@ -47,7 +47,7 @@ public final class R {
         public static final int letter8=0x7f09000b;
         public static final int letter9=0x7f09000c;
         public static final int linearLayout1=0x7f090003;
-        public static final int numberOfTrials=0x7f090010;
+        public static final int numberOfTrials=0x7f09000f;
         public static final int resume=0x7f090013;
         public static final int start=0x7f090015;
         public static final int submit=0x7f09000e;

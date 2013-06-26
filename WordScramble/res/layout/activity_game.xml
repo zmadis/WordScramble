@@ -36,80 +36,100 @@
         <EditText
             android:id="@+id/letter1"
             style="@style/AppTheme"
-            android:layout_width="30dip"
+            android:layout_width="40dip"
             android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:maxLength="1"
             android:ems="10"
             android:inputType="text" />
 
         <EditText
             android:id="@+id/letter2"
-            android:layout_width="30dip"
+            android:background="@color/white"
+            android:layout_width="40dip"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dip"
+            android:maxLength="1"
             android:ems="10"
             android:inputType="text" />
 
         <EditText
             android:id="@+id/letter3"
-            android:layout_width="30dip"
+            android:background="@color/white"
+            android:layout_width="40dip"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dip"
+            android:maxLength="1"
             android:ems="10"
             android:inputType="text" />
 
         <EditText
             android:id="@+id/letter4"
-            android:layout_width="30dip"
+            android:background="@color/white"
+            android:layout_width="40dip"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dip"
+            android:maxLength="1"
             android:ems="10"
             android:inputType="text" />
 
         <EditText
             android:id="@+id/letter5"
-            android:layout_width="30dip"
+            android:background="@color/white"
+            android:layout_width="40dip"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dip"
+            android:maxLength="1"
             android:ems="10"
             android:inputType="text" />
 
         <EditText
             android:id="@+id/letter6"
-            android:layout_width="30dip"
+            android:background="@color/white"
+            android:layout_width="40dip"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dip"
+            android:maxLength="1"
             android:ems="10"
             android:inputType="text" />
 
         <EditText
             android:id="@+id/letter7"
-            android:layout_width="30dip"
+            android:background="@color/white"
+            android:layout_width="40dip"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dip"
+            android:maxLength="1"
             android:ems="10"
             android:inputType="text" />
 
         <EditText
             android:id="@+id/letter8"
-            android:layout_width="30dip"
+            android:background="@color/white"
+            android:layout_width="40dip"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dip"
+            android:maxLength="1"
             android:ems="10"
             android:inputType="text" />
 
         <EditText
             android:id="@+id/letter9"
-            android:layout_width="30dip"
+            android:background="@color/white"
+            android:layout_width="40dip"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dip"
+            android:maxLength="1"
             android:ems="10"
             android:inputType="text" />
 
         <EditText
             android:id="@+id/letter10"
-            android:layout_width="30dip"
+            android:background="@color/white"
+            android:layout_width="40dip"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dip"
+            android:maxLength="1"
             android:ems="10"
             android:inputType="text" />
     </LinearLayout>
