@@ -175,30 +175,17 @@ public class GameActivity extends Activity {
 		letters[9]= (EditText) findViewById(R.id.letter10);
 		
 		
-		//code inserted for testing purposes
-		int duration = Toast.LENGTH_LONG;
-		Toast toast = Toast.makeText(context, word+"---------", duration);
-		toast.show();
-		String compare = "";
-		//end of code inserted for testing purposes
+		
 		
 		
 		for (int i =0; i< letters.length; i++)
 		{
-			if(letters[i].getText().toString().equalsIgnoreCase(word.substring(i, i+1))){
+			if(letters[i].getText().toString().trim().equalsIgnoreCase(word.substring(i, i+1))){
 				
-				//code inserted for testing purposes
-					compare+= i+ ")"+ letters[i].getText().toString()+"=="+word.substring(i, i+1) +"\n";
-					toast = Toast.makeText(context, compare+"", duration);
-					toast.show();
-				//end of code inserted for testing purposes	
+				
 			}
 			else 
 				{
-				//code inserted for testing purposes
-				toast = Toast.makeText(context, compare+"", duration);
-				toast.show();
-				//end of code inserted for testing purposes
 				
 				return false;
 				}
@@ -218,11 +205,16 @@ public class GameActivity extends Activity {
 		
 		if(isCorrect(word)){
 		answerView.setText("You're right!"); 
+		numberOfTrials = 0;
+		numberOfTrialsTextView.setText("1 trial out of 3");
+		Word word1 = getRandomWord();
+		setLetters(word1,6);
 	
 		}
 	else{
 		
 		answerView.setText("Sorry, your answer is not correct");
+		
 	}
 	}
 	
