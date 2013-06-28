@@ -27,3 +27,6 @@ I used the emulator through Eclipse to test the code for the Android project.
 6.	Screenshots
 
 ![Screenshots] (https://raw.github.com/zmadis/WordScramble/master/WordScramble/screenshots/WS1.png)
+![Screenshots] (https://raw.github.com/zmadis/WordScramble/master/WordScramble/screenshots/WS2.png)
+![Screenshots] (https://raw.github.com/zmadis/WordScramble/master/WordScramble/screenshots/WS3.png)
+![Screenshots] (https://raw.github.com/zmadis/WordScramble/master/WordScramble/screenshots/WS4.png)
